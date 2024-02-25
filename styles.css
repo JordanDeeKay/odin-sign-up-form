@@ -20,7 +20,7 @@ body {
     background-image: url('./images/nature.jpg');
     position:relative;
     height: 100vh;
-    width: 34vw;
+    width: 34%;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -31,13 +31,18 @@ body {
 .right {
     display: flex;
     flex-direction: column;
+    background-color: #FAFAFA;
+    width: 66%;
 }
 
 .firstSection {
+    display: flex;
+    align-items: flex-end;
     height: 25vh;
     font-size: 12px;
-    padding-top: 120px;
+    padding-top: 50px;
     padding-left: 10%;
+    padding-bottom: 25px;
 }
 
 .textContainer {
@@ -50,9 +55,14 @@ body {
     box-shadow: 2px 5px #E5E7EB;
 }
 
+.formText {
+    margin-left: 10%;
+    padding-top: 20px;
+}
+
 .formMainDiv {
     display: flex;
-    margin: 10%;
+    margin-left: 10%;
     gap: 50px;
 }
 
