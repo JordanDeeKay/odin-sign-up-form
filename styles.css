@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Norse-Bold, sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url('./images/nature.jpg');
+    position:relative;
+    height: 100vh;
+    width: 34vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.firstSection {
+    height: 25vh;
+    font-size: 12px;
+    padding-top: 120px;
+    padding-left: 10%;
+}
+
+.textContainer {
+    max-width: 650px;
+}
+
+.secondSection {
+    background-color: white;
+    height: 33vh;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.formMainDiv {
+    display: flex;
+    margin: 10%;
+    gap: 50px;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+label {
+    font-size: 10px;
+    color: rgb(59, 58, 58);
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.btn-green {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.thirdSection {
+    margin-left: 10%;
+    margin-top: 25px;
+}
+
+.hyperlink {
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.login {
+    color:#596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a-footer {
+    color: white;
+
+}
+
+.p-footer {
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+
+.forImage {
+    height: 34vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.forFooter {
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+}
+
+.semi-transparent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: Norse-Bold, sans-serif;
+}
+
+.logo {
+    color: white;
+    font-size: 35px;
+    font-family: Norse-Bold;
+}

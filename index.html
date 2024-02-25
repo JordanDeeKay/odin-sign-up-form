@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <div class="forImage">
+                <div class="semi-transparent">
+                    <img src="./images/odin-lined.png" alt="odin project logo" height="100px">
+                    <h1 class="logo">ODIN</h1>
+                </div>
+            </div>
+            <div class="forFooter">
+                <p class="p-footer">Photo by <a class="a-footer" href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Halie West</a> on <a class="a-footer" href="unsplash.com">Unsplash</a></p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="firstSection">
+                <div class="textContainer">
+                    <h1>This is not a real online service! 
+                        You know you need something like 
+                        this in your life to help you realize your 
+                        deepest dreams. Sign up <em>now</em> 
+                        to get started.
+                        <br></br>
+                        You <em>know</em> you want to.
+                    </h1>
+                </div>
+            </div>
+            <form action="" method="get">
+                <div class="secondSection">
+                    <h3 style="margin-left: 10%">Let's Do This!</h3>
+                    <div class="formMainDiv">
+                        <div class="formDiv">
+                            <div class="formDiv">
+                                <label for="firstName">FIRST NAME</label>
+                                <input type="text" id="firstName" name="user-first-name">
+                            </div>
+                            <div class="formDiv">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" name="user-email">
+                            </div>
+                            <div class="formDiv">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="user-password" required>
+                                <p id="error">*passwords do not match</p>
+                            </div>
+                        </div>
+                        <div class="formDiv">
+                            <div class="formDiv">
+                                <label for="lastName">LAST NAME</label>
+                                <input type="text" id="lastName" name="user-last-name">
+                            </div>
+                            <div class="formDiv">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone" name="user-phone">
+                            </div>
+                            <div class="formDiv">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirmPassword" name="user-confirm-password" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="thirdSection">
+                    <button type="submit" class="btn-green">Create Account</button>
+                </div>
+            </form>
+            <div class="hyperlink">
+                <p>Already have an account? <a class="login" href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
